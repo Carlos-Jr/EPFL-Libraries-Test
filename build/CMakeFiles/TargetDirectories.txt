@@ -1,0 +1,14 @@
+/home/carlosdias/Downloads/teste/build/CMakeFiles/main.dir
+/home/carlosdias/Downloads/teste/build/CMakeFiles/edit_cache.dir
+/home/carlosdias/Downloads/teste/build/CMakeFiles/rebuild_cache.dir
+/home/carlosdias/Downloads/teste/build/include/CMakeFiles/edit_cache.dir
+/home/carlosdias/Downloads/teste/build/include/CMakeFiles/rebuild_cache.dir
+/home/carlosdias/Downloads/teste/build/include/abc/CMakeFiles/libabcsat.dir
+/home/carlosdias/Downloads/teste/build/include/abc/CMakeFiles/edit_cache.dir
+/home/carlosdias/Downloads/teste/build/include/abc/CMakeFiles/rebuild_cache.dir
+/home/carlosdias/Downloads/teste/build/include/syrup/CMakeFiles/syrup.dir
+/home/carlosdias/Downloads/teste/build/include/syrup/CMakeFiles/edit_cache.dir
+/home/carlosdias/Downloads/teste/build/include/syrup/CMakeFiles/rebuild_cache.dir
+/home/carlosdias/Downloads/teste/build/include/satoko/CMakeFiles/satoko.dir
+/home/carlosdias/Downloads/teste/build/include/satoko/CMakeFiles/edit_cache.dir
+/home/carlosdias/Downloads/teste/build/include/satoko/CMakeFiles/rebuild_cache.dir
