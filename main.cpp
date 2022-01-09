@@ -1,4 +1,5 @@
 #include <percy/percy.hpp>
+#include <lorina/lorina.hpp>
 #include <cassert>
 #include <cstdio>
 #include <fstream>
@@ -17,8 +18,8 @@ int main(void)
         create_nth_var(y, 1);
         create_nth_var(z, 2);
 
-        // The sum and carry functions represent the outputs of the 
-        // chain that we want to synthesize. 
+        // The sum and carry functions represent the outputs of the
+        // chain that we want to synthesize.
         const auto sum = x ^ y ^ z;
         const auto carry = ternary_majority(x, y, z);
         spec[0] = sum;
@@ -39,4 +40,3 @@ int main(void)
 
     return 0;
 }
-

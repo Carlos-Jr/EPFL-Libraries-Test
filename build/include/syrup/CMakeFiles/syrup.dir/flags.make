@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/carlosdias/Downloads/teste -I/home/carlosdias/Downloads/teste/include/abc -I/home/carlosdias/Downloads/teste/include/syrup/.. -I/home/carlosdias/Downloads/teste/include/syrup
 
-CXX_FLAGS = -w -std=gnu++14
+CXX_FLAGS = -w -g -std=gnu++17
 

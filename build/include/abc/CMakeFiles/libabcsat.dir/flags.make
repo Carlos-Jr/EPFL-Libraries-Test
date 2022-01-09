@@ -6,5 +6,5 @@ CXX_DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DLIN64
 
 CXX_INCLUDES = -I/home/carlosdias/Downloads/teste -I/home/carlosdias/Downloads/teste/include/abc
 
-CXX_FLAGS = -w -std=gnu++14
+CXX_FLAGS = -w -g -std=gnu++17
 

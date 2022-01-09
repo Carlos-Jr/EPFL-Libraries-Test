@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wall -pedantic -fPIC  -DLIN64 CMakeFiles/main.dir/main.cpp.o -o main  include/satoko/libsatoko.a include/abc/liblibabcsat.a include/syrup/libsyrup.a -lpthread 
+/usr/bin/c++ -Wall -pedantic -fPIC  -DLIN64 -Wmisleading-indentation -Wunused-but-set-variable -g CMakeFiles/main.dir/main.cpp.o -o main  include/satoko/libsatoko.a include/abc/liblibabcsat.a include/syrup/libsyrup.a -lpthread 

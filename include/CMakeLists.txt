@@ -15,13 +15,11 @@ list(REMOVE_ITEM FILENAMES splay.c)
 list(REMOVE_ITEM FILENAMES sumlines.c)
 
 if (UNIX)
-    set(CMAKE_C_FLAGS "-w")
+    set(CMAKE_C_FLAGS "-w -Wmisleading-indentation -Wunused-but-set-variable")
 endif()
 
 add_library(nauty INTERFACE)
 target_include_directories(nauty INTERFACE ${PROJECT_SOURCE_DIR}/include)
-
-
 
 ######################## PERCY
 add_library(percy INTERFACE)
@@ -68,12 +66,23 @@ if(ABC_USE_NAMESPACE)
 endif()
 include_directories(abc)
 
-######################## SATOKO ou SYRUP
+######################## SYRUP
 find_package(ZLIB REQUIRED)
 find_package(Threads REQUIRED)
 add_subdirectory(syrup)
 target_compile_definitions(percy INTERFACE USE_SYRUP)
 target_link_libraries(percy INTERFACE syrup pthread)
+
+######################## SATOKO
 add_subdirectory(satoko)
 target_compile_definitions(percy INTERFACE USE_SATOKO)
 target_link_libraries(percy INTERFACE satoko)
+
+######################## LORINA
+add_library(lorina INTERFACE)
+target_include_directories(lorina INTERFACE ${PROJECT_SOURCE_DIR}/include)
+if (ENABLE_COVERAGE)
+  target_link_libraries(lorina INTERFACE fmt gcov)
+else()
+  target_link_libraries(lorina INTERFACE fmt)
+endif()

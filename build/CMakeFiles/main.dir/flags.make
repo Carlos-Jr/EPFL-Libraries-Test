@@ -6,5 +6,5 @@ CXX_DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DLIN64 -DSATOKO_NAMESP
 
 CXX_INCLUDES = -I/home/carlosdias/Downloads/teste/include -I/home/carlosdias/Downloads/teste/include/satoko/.. -I/home/carlosdias/Downloads/teste/include/satoko -I/home/carlosdias/Downloads/teste/include/satoko/../abc -I/home/carlosdias/Downloads/teste/include/abc -I/home/carlosdias/Downloads/teste/include/syrup/.. -I/home/carlosdias/Downloads/teste/include/syrup
 
-CXX_FLAGS = -Wall -pedantic -fPIC  -DLIN64 -std=gnu++14
+CXX_FLAGS = -Wall -pedantic -fPIC  -DLIN64 -Wmisleading-indentation -Wunused-but-set-variable -g -std=gnu++17
 
