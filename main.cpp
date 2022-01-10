@@ -3,6 +3,7 @@
 #include <cassert>
 #include <cstdio>
 #include <fstream>
+#include <iostream>
 
 using namespace percy;
 using kitty::dynamic_truth_table;
@@ -38,5 +39,6 @@ int main(void)
         assert(sim_fs[1] == carry);
     }
 
+    std::cout << "Finalizado\n";
     return 0;
 }
