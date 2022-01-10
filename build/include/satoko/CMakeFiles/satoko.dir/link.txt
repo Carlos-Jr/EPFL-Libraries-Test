@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsatoko.a CMakeFiles/satoko.dir/cnf_reader.cpp.o CMakeFiles/satoko.dir/solver.cpp.o CMakeFiles/satoko.dir/solver_api.cpp.o
-/usr/bin/ranlib libsatoko.a

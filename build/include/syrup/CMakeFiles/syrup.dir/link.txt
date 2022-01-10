@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsyrup.a CMakeFiles/syrup.dir/core/Solver.cc.o CMakeFiles/syrup.dir/simp/SimpSolver.cc.o CMakeFiles/syrup.dir/parallel/ClausesBuffer.cc.o CMakeFiles/syrup.dir/parallel/MultiSolvers.cc.o CMakeFiles/syrup.dir/parallel/ParallelSolver.cc.o CMakeFiles/syrup.dir/parallel/SharedCompanion.cc.o CMakeFiles/syrup.dir/parallel/SolverCompanion.cc.o CMakeFiles/syrup.dir/parallel/SolverConfiguration.cc.o CMakeFiles/syrup.dir/utils/Options.cc.o CMakeFiles/syrup.dir/utils/System.cc.o
-/usr/bin/ranlib libsyrup.a
